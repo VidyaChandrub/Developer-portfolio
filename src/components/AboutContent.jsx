@@ -3,7 +3,7 @@ import "./AboutContentStyles.css"
 import React from 'react'
 import {Link} from 'react-router-dom'
 import React1 from '../assets/React1.jpg'
-import React2 from '../assets/react2.jpg'
+import React5 from '../assets/react5.jpg'
 
 
 const AboutContent = () => {
@@ -22,7 +22,7 @@ const AboutContent = () => {
                     <img src={React1} className="img" alt="true" />
                 </div>
                 <div className="img-stack bottom">
-                    <img src={React2} className="img" alt="true" />
+                    <img src={React5} className="img" alt="true" />
                 </div>
             </div>
         </div>
