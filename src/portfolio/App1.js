@@ -1,11 +1,11 @@
 import React from "react";
-import '../index.css';
-import Home from '../portfolio/routes/Home'
-import About from '../portfolio/routes/About'
-import Contact from '../portfolio/routes/Contact'
-import Projects from '../portfolio/routes/Projects'
+import './index.css';
+import Home from './routes/Home'
+import About from './routes/About'
+import Contact from './routes/Contact'
+import Projects from './routes/Projects'
 import {BrowserRouter as Router,Routes , Route} from 'react-router-dom'
-function App() {
+function App1() {
   return (
     <Router>
     <Routes>
@@ -18,4 +18,4 @@ function App() {
   );
 }
 
-export default App;
+export default App1;
