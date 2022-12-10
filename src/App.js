@@ -1,9 +1,16 @@
 import React from 'react'
-import App1 from './portfolio/App1'
+import Content from './team-allocation/Content'
+import Footer from './team-allocation/Footer'
+import Header from './team-allocation/Header'
+/* import App1 from './portfolio/App1' <App1 /> */
 
 function App() {
   return (
-    <div><App1 /></div>
+    <div>
+   <Header/>
+   <Content/>
+   <Footer />
+    </div>
   )
 }
 
