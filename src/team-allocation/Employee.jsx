@@ -89,7 +89,13 @@ let [employees, setEmployees] = useState([{
 
 
   return (
-    <main></main>
+    <main>
+      {
+      employees.map( (employee)=>{
+                   <p>{employee.fullName}</p>
+      })
+      }
+    </main>
   )
 }
 
